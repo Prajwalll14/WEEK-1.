@@ -1,6 +1,9 @@
 # Water Quality Prediction - RMS
 
-This project aims to predict multiple water quality parameters using machine learning techniques, specifically `MultiOutputRegressor` wrapped around a `RandomForestRegressor`. It was developed as part of a one-month **AICTE Virtual Internship sponsored by Shell** in **June 2025**.
+🌍 Problem Statement
+Water pollution is a growing concern globally. Monitoring water quality in real-time and predicting pollutant levels can significantly help authorities prevent ecological damage and protect public health.
+
+This project aims to develop a machine learning model that can predict multiple water quality parameters simultaneously, based on historical water quality datasets.
 
 ---
 
@@ -29,14 +32,40 @@ In this project, we:
 
 ## Predicted Water Quality Parameters
 
-The model predicts multiple water quality parameters such as:
+📂 Dataset Description
+The dataset includes readings of various physicochemical properties from water bodies. Some of the key features include:
 
-- NH4
-- BOD5 (BSK5)
-- Colloids
-- O2, NO3, NO2, SO4, PO4 and 
-- CL
+Temperature
 
+pH
+
+Turbidity
+
+Conductivity
+
+Dissolved Oxygen (DO)
+
+And more...
+
+The target variables (multi-output regression) are:
+
+NH₄ (Ammonium)
+
+BOD₅ (Biological Oxygen Demand)
+
+Colloids
+
+O₂ (Oxygen)
+
+NO₃ (Nitrate)
+
+NO₂ (Nitrite)
+
+SO₄ (Sulfate)
+
+PO₄ (Phosphate)
+
+Cl (Chloride)
 ---
 
 ## Model Performance
