@@ -1,4 +1,4 @@
-# Water Quality Prediction - RMS
+# Water Quality Prediction 
 
 🌍 Problem Statement
 Water pollution is a growing concern globally. Monitoring water quality in real-time and predicting pollutant levels can significantly help authorities prevent ecological damage and protect public health.
